@@ -175,6 +175,7 @@ nav {
   }
   
   .masonry-item img {
+      object-fit: fill;
     align-items: center;
     width: 100%;
     display: block;
