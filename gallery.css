@@ -224,6 +224,7 @@ nav ul li a:hover {
 
 .gallery-grid {
   display: grid;
+  justify-content: space-evenly;
   grid-template-columns: repeat(auto-fit, minmax(250px, 600px));
   gap: 20px;
 }
