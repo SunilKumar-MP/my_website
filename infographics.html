@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Dr Sunil Kumar Sharma</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      
+        <link rel="shortcut icon" href="./Logo.png" />
+        <link rel="stylesheet" href="infographics.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+      </head>
+<body>
+    
+  <!-- Preloader -->
+  <div class="preloader"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <img src="Logo.png" alt="logo" />
+      <h1></h1>
+    </div>
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./About.html">About</a>
+      </li>
+
+  <li>
+        <a href="./Gallery.html">Gallery</a>
+      </li> 
+     <li>
+        <a href="./news.html">News</a>
+      </li> 
+       <li>
+          <a href="./infographics.html">Info-graphics</a>
+        </li>
+      <li>
+        <a href="./contact.html">Contact Us</a>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+  </nav>
+  <div class="menubar">
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./About.html">About</a>
+      </li>
+<!--       <li>
+        <a href="./index.html">Speeches</a>
+      </li> -->
+      <li>
+        <a href="./Gallery.html">Gallery</a>
+      </li>
+       <li>
+        <a href="./news.html">News</a>
+      </li>
+             <li>
+          <a href="./index.html">Info-graphics</a>
+        </li>
+      <li>
+        <a href="./contact.html">Contact Us</a>
+      </li>
+   
+    </ul>
+  </div>
+  </nav>
+<header>
+    <h1>Infographics</h1>
+    <!-- Gallery Section -->
+    <div class="gallery">
+        <div class="card" onclick="popOut(this)">
+          <img src="./Gallery/info-1.png" alt="Infographic 1">
+          <div class="details">
+            <p class="title">स्वास्थ्य सेवा</p>
+            <p class="date">January 05, 2025</p>
+          </div>
+        </div>
+        <!-- <div class="card" onclick="popOut(this)">
+          <img src="./Gallery/info-2.png" alt="Infographic 2">
+          <div class="details">
+            <p class="title">A Government That Cares</p>
+            <p class="date">December 30, 2024</p>
+          </div>
+        </div>
+        <div class="card" onclick="popOut(this)">
+          <img src="./Gallery/info-3.png" alt="Infographic 3">
+          <div class="details">
+            <p class="title">Unlocking Capital Markets</p>
+            <p class="date">December 28, 2024</p>
+          </div>
+        </div>
+        <div class="card" onclick="popOut(this)">
+          <img src="./Gallery/info-4.png" alt="Infographic 4">
+          <div class="details">
+            <p class="title">Building the Nation</p>
+            <p class="date">November 15, 2024</p>
+          </div>
+        </div>
+        <div class="card" onclick="popOut(this)">
+          <img src="./Gallery/info-5.png" alt="Infographic 5">
+          <div class="details">
+            <p class="title">Driving Innovation</p>
+            <p class="date">October 10, 2024</p>
+          </div>
+        </div> -->
+      </div>
+    </header>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are dedicated to building a better future through education, leadership, and clean politics. Join our mission for sustainable development.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: mp.sunilsharma.nepal@gmail.com</p>
+            <p>Phone: +9779807086585</p>
+            <p>Address: Baburam Acharya Road, Kathmandu 44600, Kathmandu, Nepal</p>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/drsunil001"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/dr_sunilksharma"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@drsunilsharmasecretariat"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@Dr.Sunilkumarsharma"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2024 DrSunilKumarSharma. All rights reserved.
+        </div>
+      </footer>
+  
+      <!-- Pop-Out Modal -->
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <button class="nav-button_left" onclick="prevImage(event)">&#10094;</button>
+          <img id="modalImage" src="" alt="Infographic">
+          <button class="nav-button right" onclick="nextImage(event)">&#10095;</button>
+          <span class="close-modal" onclick="closeModal()">✖</span>
+        </div>
+      </div>
+  
+
+
+
+  <script src="info.js"></script>
+</body>
+</html>
